@@ -34,9 +34,12 @@ body {
 }
 
 header {
-    position: relative;
-    height: 140px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
     z-index: 1;
+    background: linear-gradient(257.06deg, rgba(80, 156, 255, 0.7) 16.36%, rgba(14, 68, 138, 0) 140.04%), #006EFF;
 }
 
 .container_menu {
@@ -112,7 +115,7 @@ nav ul li:hover {
     background-repeat: no-repeat;
     height: 766px;
     width: 100%;
-    margin-top: -140px;
+    margin-top: 0px;
     filter: drop-shadow(20px 14px 42px rgba(0, 0, 0, 0.28));
 }
 
@@ -135,9 +138,9 @@ nav ul li:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
     width: 100%;
-    max-width: 650px;
+    max-width: 670px;
 }
 
 .title_container_1 h2 {
@@ -567,6 +570,7 @@ footer {
 
     .menu_mobile nav ul {
         display: flex;
+        justify-content: flex-start;
         flex-direction: column;
         width: 100%;
         gap: 15px;
