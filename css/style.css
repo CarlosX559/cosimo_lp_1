@@ -71,11 +71,6 @@ header {
     gap: 25px;
 }
 
-.area_logo img {
-    width: 100%;
-    max-width: 163px;
-}
-
 a {
     text-decoration: none;
     max-width: max-content;
