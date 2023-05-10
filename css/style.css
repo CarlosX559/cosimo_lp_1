@@ -607,10 +607,13 @@ footer {
     }
 
     .title_container_1 h2 {
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 26px;
+        line-height: 28px;
     }
-
+    .sub_title_container_1 p {
+        font-size: 22px;
+        line-height: 24px;
+    }
     .btn_container_1 h2 {
         font-size: 18px;
     }
@@ -643,7 +646,7 @@ footer {
     .title_ferramentas h2 {
         font-size: 30px;
     }
-
+ 
     .container_3 {
         padding: 40px 0px 40px 0px;
     }
@@ -698,7 +701,7 @@ footer {
 
 @media(max-width: 880px) {
     #container_1 {
-        height: 420px;
+        height: 520px;
     }
 
     .container_1_int {
@@ -776,13 +779,17 @@ footer {
 
 @media(max-width: 480px) {
     #container_1 {
-        height: 360px;
+        height: 460px;
         margin-top: 20px;
     }
 
     .title_container_1 h2 {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .sub_title_container_1 p {
+        font-size: 18px;
+        line-height: 20px;
     }
 
     .btn_container_1 h2 {
